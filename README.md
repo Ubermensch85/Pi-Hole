@@ -16,5 +16,4 @@ Per una difesa preconfigurata:
 
 DoT : family.adguard-dns.com
 
-Scopo: Minacce emergenti e intelligence su sicurezza
 
