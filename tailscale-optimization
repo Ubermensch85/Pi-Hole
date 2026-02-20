@@ -1,0 +1,7 @@
+#!/bin/sh
+# Applica ottimizzazioni solo all'interfaccia fisica eno1
+if [ "$IFACE" = "eno1" ]; then
+    /usr/sbin/ethtool -K eno1 rx-udp-gro-forwarding on rx-gro-list on 2>/dev/null
+    /usr/sbin/ethtool -K eno1 gso on gro on tx-checksum-ip-generic on 2>/dev/null
+    echo "Tailscale optimizations applied to $IFACE" | logger -t network-hooks
+fi
