@@ -1,0 +1,14 @@
+[Unit]
+Description=DNSCrypt-proxy Custom Service (No Sockets)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+NonBlocking=true
+ExecStart=/usr/sbin/dnscrypt-proxy -config /etc/dnscrypt-proxy/dnscrypt-proxy.toml
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
