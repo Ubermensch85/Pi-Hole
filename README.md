@@ -1,12 +1,12 @@
 Liste attualmente configurate:
 
-HaGeZi's DNS Blocklist Ultimate 
+HaGeZi's DNS Blocklist Multi Pro. 
 
-https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt
 
-HaGeZi's Threat Intelligence Feeds (TIF) 
+HaGeZi's Threat Intelligence Feeds (TIF) Medium
 
-https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt
 
 Ora invece sono passato a Pro + TIF medium (meno aggressiva) e ho whitelistato : 
 
