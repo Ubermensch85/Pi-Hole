@@ -1,4 +1,4 @@
-Liste attualmente configurate:
+# Liste attualmente configurate:
 
 HaGeZi's DNS Blocklist Multi Pro. 
 
@@ -20,7 +20,7 @@ sudo pihole allow --regex '(.|^)online-metrix.net$' '(.|^)demdex.net$'
 sudo pihole reloaddns
 
 
-Per una difesa preconfigurata: 
+# Per una difesa preconfigurata: 
 
 94 140 14 14
 
